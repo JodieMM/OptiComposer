@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -6,17 +7,27 @@ namespace OptiComposer
 {
     /// <summary>
     /// The form for creating sheet music.
+    /// 
+    /// Author Jodie Muller
     /// </summary>
     public partial class SheetMusic : Form
     {
+        public List<Note> Song = new List<Note>();
+        public Graphics Graphics;
+        public Bitmap DrawArea;
+
+
         /// <summary>
         /// Initialiser for the sheet music form.
         /// </summary>
         public SheetMusic()
         {
             InitializeComponent();
-            
-            // TODO Draw initial lines
+
+            DrawArea = new Bitmap(DrawPanel.Size.Width, DrawPanel.Size.Height);
+            DrawPanel.Image = DrawArea;
+            Graphics = Graphics.FromImage(DrawArea);
+            Visuals.DrawBlankSheet(Graphics);
         }
 
 

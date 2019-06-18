@@ -1,0 +1,10 @@
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\bin\Debug\OptiComposer.exe.config
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\bin\Debug\OptiComposer.exe
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\bin\Debug\OptiComposer.pdb
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.csprojAssemblyReference.cache
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.SheetMusic.resources
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.Properties.Resources.resources
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.csproj.GenerateResource.cache
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.csproj.CoreCompileInputs.cache
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.exe
+C:\Users\jodie\Documents\0 Documents\Git Repos\OptiComposer\OptiComposer\OptiComposer\obj\Debug\OptiComposer.pdb

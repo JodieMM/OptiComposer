@@ -37,9 +37,9 @@
             // DrawPanel
             // 
             this.DrawPanel.BackColor = System.Drawing.Color.White;
-            this.DrawPanel.Location = new System.Drawing.Point(42, 42);
+            this.DrawPanel.Location = new System.Drawing.Point(37, 42);
             this.DrawPanel.Name = "DrawPanel";
-            this.DrawPanel.Size = new System.Drawing.Size(650, 350);
+            this.DrawPanel.Size = new System.Drawing.Size(850, 350);
             this.DrawPanel.TabIndex = 0;
             this.DrawPanel.TabStop = false;
             this.DrawPanel.MouseHover += new System.EventHandler(this.DrawPanel_Hover);
@@ -59,7 +59,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(734, 561);
+            this.ClientSize = new System.Drawing.Size(924, 561);
             this.Controls.Add(this.NoteHighlight);
             this.Controls.Add(this.DrawPanel);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
