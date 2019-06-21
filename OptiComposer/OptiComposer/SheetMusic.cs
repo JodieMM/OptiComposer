@@ -28,6 +28,11 @@ namespace OptiComposer
             DrawPanel.Image = DrawArea;
             Graphics = Graphics.FromImage(DrawArea);
             Visuals.DrawBlankSheet(Graphics);
+
+            // DEMO PRACTICING
+            Song.Add(new Note(1, false, Const.Letters.C, 0));
+            Song.Add(new Note(1, false, Const.Letters.B, 0));
+            Render();
         }
 
 
@@ -55,6 +60,15 @@ namespace OptiComposer
             // TODO Check if a note has been clicked
             // If so, mark it as selected
             // If not, insert a single-beat note at the selected location
+        }
+
+        public void Render()
+        {
+            Visuals.DrawBlankSheet(Graphics);
+            for (int i = 0; i < Song.Count; i++)
+            {
+                Song[i].Draw(Graphics, i*Const.NoteWidth + Const.TopLineX + Const.CleffThickness + Const.DotWidth);
+            }
         }
     }
 }
